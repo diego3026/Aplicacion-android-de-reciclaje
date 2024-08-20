@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mainActivity"
+            android:icon="@drawable/homelogo"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/mapsFragment"
+            android:icon="@drawable/ubi"
+            android:title="Puntos de recoleccion" />
+        <item
+            android:id="@+id/solicitudDenunciaActivity"
+            android:icon="@drawable/report_8655216"
+            android:title="Denuncias" />
+        <item
+            android:id="@+id/solicitudRecoleccionActivity"
+            android:icon="@drawable/truck_2975412"
+            android:title="Solicitar recoleccion" />
+        <item
+            android:id="@+id/consejos"
+            android:icon="@drawable/consejologo"
+            android:title="Consejos de reciclaje" />
+
+        <item
+            android:id="@+id/programasActivity"
+            android:icon="@drawable/treelogo"
+            android:title="Programas ambientales" />
+
+        <item
+            android:id="@+id/nav_item8"
+            android:title="_____________________" />
+
+        <item
+            android:id="@+id/power"
+            android:icon="@drawable/powerlogo"
+            android:title="Cerrar sesion" />
+    </group>
+</menu>

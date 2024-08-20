@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".ConsultarDenuncias">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="5dp"
+        android:text="Consultar el estado de tu denuncia"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayoutDenuncias"
+        android:layout_width="354dp"
+        android:layout_height="466dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:stretchColumns="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_column="1"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text="ID"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text="Descripcion"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text="Estado"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text="Ver mas"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_column="1"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_column="1"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_column="1"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@drawable/bordes"
+                android:padding="10dp"
+                android:text=""
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

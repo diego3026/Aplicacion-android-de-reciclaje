@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainActivity">
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.app.apparquitectura.MapsFragment"
+        tools:layout="@layout/activity_punto_de_recoleccion"/>
+    <fragment
+        android:id="@+id/solicitudDenunciaActivity"
+        android:name="com.app.apparquitectura.SolicitudDenunciaActivity"
+        tools:layout="@layout/activity_solicitud_denuncia"/>
+    <fragment
+        android:id="@+id/programasActivity"
+        android:name="com.app.apparquitectura.ProgramasActivity"
+        tools:layout="@layout/activity_programas" />
+    <fragment
+        android:id="@+id/mainActivity"
+        android:name="com.app.apparquitectura.MainActivity"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/solicitudRecoleccionActivity"
+        android:name="com.app.apparquitectura.SolicitudRecoleccionActivity"
+        tools:layout="@layout/activity_solicitud_recoleccion" />
+    <fragment
+        android:id="@+id/consejos"
+        android:name="com.app.apparquitectura.Consejos"
+        tools:layout="@layout/activity_consejos" />
+</navigation>

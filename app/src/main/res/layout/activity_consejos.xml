@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/secundary_color"
+    android:layout_height="match_parent"
+    tools:context=".Consejos">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="¿Que deseas consultar?"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="36dp"
+        android:onClick="consejo1"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="@color/primary_color"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="¿Como separar la basura?"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="107dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/reciclaje_1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:onClick="consejo2"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="36dp"
+        app:cardBackgroundColor="@color/primary_color"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Materiales que se pueden reciclar"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="107dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/envases_reciclados_photoroom_1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:onClick="consejo3"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="36dp"
+        app:cardBackgroundColor="@color/primary_color"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="¿Como reutilizar botellas de plastico?"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="107dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/botellas" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        app:cardBackgroundColor="@color/primary_color"
+        app:cardCornerRadius="20dp"
+        android:onClick="consejo4"
+        app:layout_constraintStart_toEndOf="@+id/cardView5"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="¿Como reutilizar las cajas?"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="107dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/cajas" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:onClick="consejo5"
+        android:layout_marginStart="36dp"
+        app:cardBackgroundColor="@color/primary_color"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="¿Como reutilizar botellas de vidrio?"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="107dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/decorar_botellas_de_vidrio_con_jeans_imagen_1_photoroom_1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:onClick="consejo6"
+        android:layout_marginTop="28dp"
+        app:cardBackgroundColor="@color/primary_color"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cardView7"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="¿Como reutilizar tapas plasticas?"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="107dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/tapas" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

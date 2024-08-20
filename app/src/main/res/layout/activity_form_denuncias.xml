@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".FormRecoleccion">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/formdenuncia" />
+
+    <RelativeLayout
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/bordes_redondos"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="53dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="FORMULARIO DE DENUNCIA"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="134dp"
+            android:layout_height="22dp"
+            android:layout_below="@+id/textView27"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="175dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Tipo de denuncia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="134dp"
+            android:layout_height="22dp"
+            android:layout_below="@+id/checkBox4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="174dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Nombre completo:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView29"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="229dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Direccion:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextDate"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="215dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Descripcion:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView32"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="250dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Fecha:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView28"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="70dp"
+            android:text="Reportar contenedor lleno" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="70dp"
+            android:text="No hay punto de recoleccion" />
+
+        <EditText
+            android:id="@+id/textView29"
+            android:layout_width="276dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView30"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/bordes_gris"
+            android:maxLines="1"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/textView32"
+            android:layout_width="276dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView31"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/bordes_gris"
+            android:maxLines="1"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView36"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bordes_gris"
+            android:paddingLeft="15dp" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="260dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView34"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/bordes_gris"
+            android:ems="10"
+            android:inputType="date" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="109dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="109dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

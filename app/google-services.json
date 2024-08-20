@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "336830576021",
+    "project_id": "app-arquitectura-ac195",
+    "storage_bucket": "app-arquitectura-ac195.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336830576021:android:421200223c098c2c24b29c",
+        "android_client_info": {
+          "package_name": "com.app.apparquitectura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336830576021-revn1batgd4cmi7fq0k3dfq6oiito4hg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.apparquitectura",
+            "certificate_hash": "502c186963f4c6a3ba5804600d7a639c98cf9bb3"
+          }
+        },
+        {
+          "client_id": "336830576021-orpfbsq4lk48n0d02dm6h0tnp7v1imar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPX-jAED7QURmGkNipti20hqZTi7lTi-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336830576021-orpfbsq4lk48n0d02dm6h0tnp7v1imar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
